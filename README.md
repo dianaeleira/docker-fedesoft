@@ -1,6 +1,6 @@
 # ¡Instalación de Docker!
 
-Docker es una plataforma que permite que los desarrolladores puedan crear, probar e implementar aplicaciones rápidamente porque facilita el  empaquetado de diferentes aplicaciones en  **Contenedores**, los cuales incluyen todo lo necesario para que el software se ejecute: Bibliotecas, código y tiempo de ejecución. Docker facilita la implementación y escalabilidad de aplicaciones en cualquier entorno.
+Docker es una plataforma que facilita a los desarrolladores crear, probar e implementar aplicaciones rápidamente porque facilita el  empaquetado de diferentes aplicaciones en  **Contenedores**, los cuales incluyen todo lo necesario para que el software se ejecute: Bibliotecas, código y tiempo de ejecución. Docker facilita la implementación y escalabilidad de aplicaciones en cualquier entorno.
 
 ## Instalación
 La página que contiene la documentación oficial de Docker para los diferentes sistemas operativos es : [Get Docker](https://docs.docker.com/get-docker/)
@@ -64,3 +64,21 @@ $ sudo docker run hello-world
 $ sudo docker version
 ```
 ![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_version.png)
+
+##Instalación de Docker Compose en linux
+[Docker Compose](https://docs.docker.com/compose/)
+Docker composer permite facilita al desarrollador el uso de Docker a partir de archivos YAML, siendo más sencillo crear contenedores, conectarlos, habilitar puertos, volumenes, etc.
+
+```
+$ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+##Permisos de ejecución al archivo descargado
+```
+$ sudo chmod +x /usr/local/bin/docker-compose
+```
+##Comprobar la versión del Docker Compose
+```
+$ docker-compose --version
+```
+![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_compose.png)
