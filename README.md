@@ -82,3 +82,26 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 ```
 ![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_compose.png)
+
+##Clonar repositorio de ejemplo
+Un ejemplo de las capacidades de los contenedores de Docker, es permitir clonar repositorios de github.
+```
+git clone https://github.com/jsgiraldoh/Codimd.git
+```
+![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_git.png)
+
+Ingresar al directorio:
+```
+$ cd Codimd
+```
+Construir del archivos YML
+```
+$ cd docker-compose up -d
+```
+![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_yaml.png)
+
+Ver lista de imagenes disponibles
+```
+$ sudo docker container ls
+```
+![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_ls.png)
