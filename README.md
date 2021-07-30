@@ -2,7 +2,7 @@
 
 Docker es una plataforma que permite que los desarrolladores puedan crear, probar e implementar aplicaciones rápidamente porque facilita el  empaquetado de diferentes aplicaciones en  **Contenedores**, los cuales incluyen todo lo necesario para que el software se ejecute: Bibliotecas, código y tiempo de ejecución. Docker facilita la implementación y escalabilidad de aplicaciones en cualquier entorno.
 
-## Installation
+## Instalación
 La página que contiene la documentación oficial de Docker para los diferentes sistemas operativos es : [Get Docker](https://docs.docker.com/get-docker/)
 
 Esta documentación está basada en la instalación de un sistema operativo de **Ubuntu 20.04 LTS**.
