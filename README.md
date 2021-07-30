@@ -49,11 +49,18 @@ Instalar la última versión de Docker Engine y containerd:
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-###### Verificar la instalación:Verificar la instalación:
-Para verificar que Docker quedó correctamente instalalado, se puede instalar una imagen de prueba:
+## Verificar la instalación:
+Para verificar que Docker quedó correctamente instalalado, se puede descargar una imagen de prueba y ejecutar un contenedor:
 
 ```
 $ sudo docker run hello-world
 ```
 ![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/hello-world.png)
 
+
+## Verificar versión de Docker
+
+```
+$ sudo docker version
+```
+![](https://github.com/dianaeleira/docker-fedesoft/blob/main/assets/img/docker_version.png)
